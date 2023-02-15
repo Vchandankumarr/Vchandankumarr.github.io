@@ -350,6 +350,11 @@ section .title::after{
     width: 70%;
   }
 
+  .skills-card-name{
+    /* border:1px solid red; */
+    width:60%;
+    text-align: center;
+  }
 
 
 /* project section styling */
@@ -446,7 +451,7 @@ section .title::after{
   }
 
 
-  project .carousel .card:hover .button{
+  .project-card:hover .button{
     background-color: #111;
 }
 
@@ -459,11 +464,27 @@ section .title::after{
 .project-btns {
     position: relative;
     bottom: 0%;
+    display:flex;
+    justify-content:space-between;
+    color:crimson;
+    /* border:1px solid red */
+  }
+   
+  .project-btns>a{
+    color:crimson;
+    font-size: 20px;
   }
 
   .box .text{
     color:crimson
   }
+
+#project-image:hover{
+  cursor: pointer;
+  transform: scale(1.5)
+}
+
+
 
 /* git hub */
 
