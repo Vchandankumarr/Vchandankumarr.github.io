@@ -263,7 +263,7 @@ section .title::after{
 
 
 /* skills section styling */
-.skills-images img {
+.skills-card img {
     height: 150px;
     width: 150px;
     /* object-fit: cover; */
@@ -350,11 +350,11 @@ section .title::after{
     width: 70%;
   }
 
-  .skills-card-name{
-    /* border:1px solid red; */
+  /* .skills-card-name{
+   
     width:60%;
     text-align: center;
-  }
+  } */
 
 
 /* project section styling */
