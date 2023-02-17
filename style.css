@@ -488,28 +488,26 @@ section .title::after{
 
 /* git hub */
 
-.margin-purpusegithub{
-    margin-bottom: 50px;
-  }
+.react-activity-calendar>h1{
+  text-align: center;
+}
 
-  .center-h1{
-    text-align: center;
-    color: var(--first-color);
-  }
-
-  .calendar {
-    width: 95%;
-  }
-
-
-  .git-stat-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 10px;
-  
-  }
+.git-box{
+  width:85%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: auto;
+  gap:20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.git-box img{
+  width:100%;
+}
+.calendar{
+  width:90%;
+ color:white
+}
 
 
   /* ===== FOOTER =====*/
