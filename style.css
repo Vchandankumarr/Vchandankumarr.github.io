@@ -266,16 +266,16 @@ section .title::after{
 .skills-card img {
     height: 150px;
     width: 150px;
-    /* object-fit: cover; */
+    
     border-radius: 5%;
-    /* border: 5px solid crimson; */
+    
     transition: all 0.3s ease;
   }
   .skills .title::after {
     content: "What I know";
   }
   
-  /* skills right column */
+ 
   .skills .skills-content .column {
     width: calc(50% - 30px);
     /* border: 2px solid black; */
